@@ -24,7 +24,7 @@ struct ContentView: View {
                 .tabItem{
                     Label("Trends", systemImage: "chart.line.uptrend.xyaxis")
                 }
-            TrendsView()
+            StockDetailView()
                 .tabItem{
                     Label("News", systemImage: "newspaper")
                 }
